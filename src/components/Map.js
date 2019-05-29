@@ -19,7 +19,7 @@ async function handleAddressSearch(addressSearchText) {
   var params = {
     typeahead: true,
     countryset: 'NZ',
-    key: '',
+    key: 'DhR7dQXpVyPK02V65PUKp6HUNH2H1ShX',
   };
   url.search = new URLSearchParams(params);
 
@@ -177,7 +177,7 @@ class Map extends Component {
       console.log("generating map");
       window.cmap = window.tomtom.L.map('map', {
          source: 'vector',
-         key: '',
+         key: 'DhR7dQXpVyPK02V65PUKp6HUNH2H1ShX',
          center: [latitude, longitude],
          basePath: '/sdk',
          zoom: 15
@@ -213,7 +213,7 @@ class Map extends Component {
     var params = {
       typeahead: true,
       countryset: 'NZ',
-      key: '',
+      key: 'DhR7dQXpVyPK02V65PUKp6HUNH2H1ShX',
     };
     url.search = new URLSearchParams(params);
 
@@ -235,7 +235,7 @@ class Map extends Component {
     var params = {
       typeahead: true,
       countryset: 'NZ',
-      key: '',
+      key: 'DhR7dQXpVyPK02V65PUKp6HUNH2H1ShX',
     };
     url.search = new URLSearchParams(params);
 
